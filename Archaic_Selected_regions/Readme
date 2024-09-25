@@ -1,0 +1,15 @@
+# Detection of putatively selected regions in publication - "Neandertal ancestry through time"
+The input data is store in a folder bindata_EUR_perCHR, where the posterior probability of bins with atleast 0.8 are retained and other values are set to 0. 
+
+bindata_EUR_perCHR: 
+contains posterior probability from Admixfrog for EMH and Present-day (PP) samples in bins of 0.005cM across the genome. 
+
+summarystats:
+This folder contains scripts to compute mean and Z-score and sample size per bin across samples.
+The script makeMean_chr21 is an example to compute mean and makeZscore_chr21 is an example to compute Z-score for chr21. makecountsPerBin_chr21 is used to get the size of the samples with posteriro probability greater than 0.8 in each bin across the genome. 
+
+selected_regions : 
+make_listofselected_Regions.sh is a script used to infer the regions which are putatively selected across the genome. 
+
+
+
