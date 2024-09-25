@@ -1,0 +1,20 @@
+
+Input file outfiles_Kostenki14Shotgun/Kostenki14Shotgun 
+Summary of fit:
+
+Formula: wcorr ~ (C + A * exp(-m * dist/100))
+
+Parameters:
+   Estimate Std. Error t value Pr(>|t|)    
+C 3.612e-03  7.067e-04   5.111 3.86e-07 ***
+A 9.625e-02  8.884e-04 108.340  < 2e-16 ***
+m 3.292e+02  8.870e+00  37.110  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.006602 on 978 degrees of freedom
+
+Number of iterations to convergence: 1 
+Achieved convergence tolerance: 4.165e-07
+
+mean (generations):  329.17041 
