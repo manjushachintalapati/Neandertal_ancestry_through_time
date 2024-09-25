@@ -6,7 +6,7 @@ Step1: Convert the Admixfrog files into eigen files
         example eigen files for one sample are the folder eigendata
 
 Step2: Run the dating analysis using Neandertal dating took - moorjani et al.,2016
-	We use the method in moorjani et al., 2016 (Nenadertal Dating -https://github.com/priyamoorjani/Neanderthal_dating) to estimate the time of Neandertal mixture. The example par file is given in the folder and script to post the job. 
+	We use the method in moorjani et al., 2016 (Nenadertal Dating -https://github.com/priyamoorjani/Neanderthal_dating) to estimate the time of Neandertal mixture. The example par file is given in the folder - parfile_Ndating_Kostenki14Shotgun and script to post the job - . 
 
 Step3: Error correct the genetic maps using get_posteriror tool from Sriram Sankararaman (Cite)
        After we perform the dating, we corrected for errors in genetic map using the method get_posterior (https://github.com/sriramlab/dating). The example par file is shown in the folder- parfile_mapcorrection_Kostenki14Shotgun.  
