@@ -9,7 +9,7 @@ Step2: Run the dating analysis using Neandertal dating took - moorjani et al.,20
 	We use the method in moorjani et al., 2016 (Nenadertal Dating -https://github.com/priyamoorjani/Neanderthal_dating) to estimate the time of Neandertal mixture. The example par file is given in the folder and script to post the job. 
 
 Step3: Error correct the genetic maps using get_posteriror tool from Sriram Sankararaman (Cite)
-       After we perform the dating, we corrected for errors in genetic map using the method get_posterior (https://github.com/sriramlab/dating). The example par file is in the folder.  
+       After we perform the dating, we corrected for errors in genetic map using the method get_posterior (https://github.com/sriramlab/dating). The example par file is shown in the folder- parfile_mapcorrection_Kostenki14Shotgun.  
 
 Step4: Convert the output into years BP
 	Convert the time from get_posterior into years before present (BP) using 28 years as generation time. 
