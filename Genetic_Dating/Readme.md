@@ -1,4 +1,4 @@
-Genetic Dating analysis in the publication- Neandertal ancestry through time
+## Genetic Dating of Neandertal ancestry through time using early modern human samples  
 -------------------------------------------------------------------------------------------------------------------
  
 Step1: Convert the Admixfrog files into eigen files. 
