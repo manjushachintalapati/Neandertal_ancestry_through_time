@@ -1,15 +1,15 @@
-# Detection of putatively selected regions in publication - "Neandertal ancestry through time"
-The input data is store in a folder bindata_EUR_perCHR, where the posterior probability of bins with atleast 0.8 are retained and other values are set to 0. 
+### Detection of putatively selected regions in publication - "Neandertal ancestry through time"
+We analysed the genomes of 45 Early modern humans (EMH) and 101 present-day (SGDP) samples to infer regions which are high archaic frequency regions (potentially under selection).
+The input data is posterior probability from Admixfrog in windows of 0.005cM across the genome. 
+The example file is in the folder bindata_EUR_perCHR. Here the bins which have a posterior probability less than 0.8 are set to 0. 
 
-bindata_EUR_perCHR: 
-contains posterior probability from Admixfrog for EMH and Present-day (PP) samples in bins of 0.005cM across the genome. 
+To identify regions under putative selection, we use Z-scores to filter and rank the regions. Firstly, we compute mean in each bin across EMH and PP samples cohort separetly. 
+Secondly, we compute a genome wide mean and SD. Third we compute Z-score in each bin using mean in a bin and genome wide mean and SD. Refere to the publication to more details. 
+The scripts for computing these metrics along with final results are in the folder- summarystats
 
-summarystats:
-This folder contains scripts to compute mean and Z-score and sample size per bin across samples.
-The script makeMean_chr21 is an example to compute mean and makeZscore_chr21 is an example to compute Z-score for chr21. makecountsPerBin_chr21 is used to get the size of the samples with posteriro probability greater than 0.8 in each bin across the genome. 
-
-selected_regions : 
-make_listofselected_Regions.sh is a script used to infer the regions which are putatively selected across the genome. 
-
-
+We grouped the high archaic frequency regions in three categories: 
+i) regions that are at high frequency (Z > 4.5) in both EMH and PP samples. 
+ii) regions that are at high frequency in PP individuals (Z > 4.5) but not in EMH individuals (Z < 1). 
+iii) regions that are at high frequency in ancient individuals (Z > 4.5) but not in present-day individuals (Z < 1). 
+The folder selected_regions contains scripts to infer theses regions and gene annotations as well.
 
