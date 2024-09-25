@@ -1,0 +1,8 @@
+indivname: eigendata/Kostenki14Shotgun.ind
+snpname: eigendata/Kostenki14Shotgun.snp
+genotypename: eigendata/Kostenki14Shotgun.geno
+idname: Kostenki14Shotgun
+binsize: 0.00001 # specificed in Morgans so bins of 0.001 cM
+maxdis: 0.01 # specified in Morgans so upto 1cM
+jackknife: YES
+output: Kostenki14Shotgun

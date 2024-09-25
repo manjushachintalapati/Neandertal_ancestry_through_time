@@ -1,0 +1,14 @@
+col:  1
+l:  0.02
+h:  1.0
+inp: outfiles_Kostenki14Shotgun/Kostenki14Shotgun
+debug: 1
+alpha: genetic_maps_corrections/alpha.txt
+output: outfiles_Kostenki14Shotgun/Kostenki14Shotgun.date_posterior
+print_interval: 10
+glb:    25
+gub:    33
+mcmc_iters: 1500
+burnin: 200
+fitaffine: 1
+seed:   1
