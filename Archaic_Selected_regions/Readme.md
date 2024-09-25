@@ -1,4 +1,4 @@
-# Detection of high frequency archaic ancestry regions
+## Detection of high frequency archaic ancestry regions
 ----------------------------------------------------------------------------------------------------------------
 We analysed the genomes of 45 Early modern humans (EMH) and 101 present-day (SGDP) samples to infer regions which are high archaic frequency regions (potentially under selection).
 The input data is posterior probability from Admixfrog in windows of 0.005cM across the genome. 
