@@ -10,7 +10,7 @@ Step2: Run the dating analysis using Neandertal dating took - moorjani et al.,20
 
 Step3: Error correct the genetic maps using get_posteriror tool from Sriram Sankararaman (Cite)
 	After we perform the dating, we corrected for errors in genetic map using the method get_posterior (https://github.com/sriramlab/dating). The example par file is shown in the folder- parfile_mapcorrection_Kostenki14Shotgun.  
-	All the output files are written in the outputfiles_KostenkiShotgun folder
+	An example for Kostenki sample files are written in the outputfiles_KostenkiShotgun folder after processing.
 
 Step4: Convert the output into years BP
 	Convert the time from get_posterior into years before present (BP) using 28 years as generation time. 
