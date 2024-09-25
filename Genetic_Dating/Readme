@@ -1,4 +1,5 @@
 #Genetic Dating analysis in the publication- Neandertal ancestry through time
+-------------------------------------------------------------------------------------------------------------------
  
 Step1: Convert the Admixfrog files into eigen files 
 	Convert the snp file from Admixfrog to eigen ind, geno and snp files using a genetic Map
